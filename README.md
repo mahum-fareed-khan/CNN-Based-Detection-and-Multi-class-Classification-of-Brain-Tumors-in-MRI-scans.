@@ -41,8 +41,8 @@ This project implements a Convolutional Neural Network (CNN) to automatically de
 
 ## 🏗️ Model Architecture
 
-- Input Layer: 150x150 grayscale MRI images
-- 3 Convolutional layers + MaxPooling
+- Input Layer: 128x128 grayscale MRI images
+- 4 Convolutional layers + MaxPooling
 - Dropout layers for regularization
 - Fully connected Dense layers
 - Softmax output layer for multi-class classification
@@ -53,7 +53,7 @@ This project implements a Convolutional Neural Network (CNN) to automatically de
 
 | Metric     | Value |
 |------------|-------|
-| Accuracy   | 94%+  |
+| Accuracy   | 95%  |
 | Precision  | High  |
 | Recall     | High  |
 | F1 Score   | High  |
